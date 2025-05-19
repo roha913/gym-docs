@@ -14,6 +14,13 @@ import gym
 env = gym.make('CartPole-v0')
 ```
 
+You can also add keyword arguments for your particular environment, if applicable.
+
+```python
+import gym
+env = gym.make('CartPole-v0', masscart = 2, masspole = 1)
+```
+
 ## Interacting with the Environment
 Gym implements the classic "agent-environment loop":
 
